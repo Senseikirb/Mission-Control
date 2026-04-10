@@ -45,7 +45,7 @@ It was built for a specific use case — a senior defense engineer exploring tra
 ## Quick Start
 
 **Desktop:**
-1. Download `Mission_Control_v7.5_FINAL.html`
+1. Download `index.html`
 2. Double-click to open in any browser
 3. Set your start date when prompted
 4. Create your operative (name, callsign, class)
