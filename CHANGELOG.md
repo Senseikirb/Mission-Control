@@ -7,7 +7,7 @@
 - Added editable `src/` files and a portable, dependency-free build that keeps the hosted homepage and downloadable HTML identical.
 - Added executable regression tests, generated-file/documentation checks, a locked development dependency and GitHub Actions verification. Tests leave committed fixtures unchanged.
 - Added contribution instructions, deterministic line endings, plain static Pages handling and ignore rules for personal progress exports.
-- Allowed the phone header to wrap at enlarged text sizes after the Linux Chromium checks exposed platform-dependent overflow.
+- Improved phone header and text wrapping, and stacked statistics on the narrowest screens after Linux Chromium exposed platform-dependent overflow at enlarged text sizes.
 
 ## Application upgrade
 
