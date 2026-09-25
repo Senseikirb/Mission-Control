@@ -1,0 +1,14 @@
+node_modules/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+Thumbs.db
+
+# Personal progress must never be committed to this public repository.
+Mission_Control_backup_*.json
+Mission_Control_UNSAVED_*.json
+Mission_Control_recovery_*.json
+Mission_Control_original_v7_save.json
+Mission_Control_Portfolio_*.md
+mission-ctrl-*.json

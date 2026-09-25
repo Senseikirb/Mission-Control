@@ -1,5 +1,16 @@
 # Mission Control 8.0.0
 
+## Repository integration
+
+- Updated the GitHub Pages `index.html`, which was still serving v7.8, to the upgraded standalone v8 application. Preserved the old page under `legacy/` for recovery on the same origin.
+- Restored `fixtures/` and `verification/` directories, fixing the uploaded documentation links and removing the duplicate root README.
+- Added editable `src/` files and a portable, dependency-free build that keeps the hosted homepage and downloadable HTML identical.
+- Added executable regression tests, generated-file/documentation checks, a locked development dependency and GitHub Actions verification. Tests leave committed fixtures unchanged.
+- Added contribution instructions, deterministic line endings, plain static Pages handling and ignore rules for personal progress exports.
+- Improved phone header and text wrapping, and stacked statistics on the narrowest screens after Linux Chromium exposed platform-dependent overflow at enlarged text sizes.
+
+## Application upgrade
+
 - Replaced positional activity/resource/company persistence with stable IDs and a validated schema-8 configuration/progress bundle. Fixed the omitted `bonusMissions`/`views` config round trip and nonpersisted configuration changes.
 - Added reversible legacy migration, explicit positional-provenance confirmation, ambiguity review, unmatched-record recovery, original-save export and previous-bundle restoration. Failed storage no longer reports “Synced.”
 - Rebuilt Today’s Focus around a weekly budget, track preferences and next-session format/time. Shows at most three explained alternatives. Added partial sessions, reversible session logs, deferral and user-controlled cycle advancement.

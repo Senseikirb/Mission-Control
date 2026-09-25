@@ -10,6 +10,8 @@ The new save key is `missionControl_v8`; the old `missionControlRPG_v3` key is n
 
 ## Bring your existing progress forward
 
+**For the GitHub Pages version:** v8 now runs at the same site root. If the browser still has a v7 save on that origin, use its migration banner. You can also open the [preserved v7.8 page](legacy/Mission_Control_v7.8.html) on that origin to export old progress. Downloaded local files and the hosted site have separate storage; transfer between them with a Full backup. The legacy page retains its old behavior and is intended only for recovery.
+
 1. Open your original v7.8 application in the browser where your progress is saved. Use its **Export** control and keep that JSON and the original HTML.
 2. Open v8. On a phone, use **Menu → Config Editor**. Choose **Import / restore** and select the old JSON. If the browser exposes the old storage automatically, a migration banner provides the same workflow.
 3. Review the provenance checkbox. Check **“I confirm this save used the exact unchanged plan in the supplied v7.8 HTML”** only if that is true. Legacy activity/resource records used array positions; their export did not include the plan. An old customized plan cannot be recovered from positional progress alone.
