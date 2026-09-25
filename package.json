@@ -1,0 +1,15 @@
+{
+  "name": "mission-control",
+  "version": "8.0.0",
+  "private": true,
+  "description": "Standalone multi-domain learning planner with local, recoverable progress",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "build:check": "node scripts/build.cjs --check",
+    "test": "npm run build:check && node tests/repository.cjs && node tests/engine.cjs",
+    "test:browser": "node tests/browser.cjs && node tests/final.cjs && node tests/hosted.cjs",
+    "test:all": "npm test && npm run test:browser"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
