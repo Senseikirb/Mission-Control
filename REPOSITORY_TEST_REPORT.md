@@ -24,4 +24,6 @@ Phone checks use browser emulation, including narrow layouts and a reduced viewp
 
 ## GitHub verification
 
+The first Linux Chromium run found phone-header overflow at 320px with doubled text size, despite the local Edge pass. The header now wraps, and overflow assertions include the dimensions and affected elements with a screenshot for diagnosis. This cross-platform finding is included in the repository integration change log.
+
 The [Verify standalone app workflow](.github/workflows/verify.yml) repeats the repository, engine and browser suites on Ubuntu with Node.js 22 and Playwright Chromium. Each run installs from the lockfile and uploads results/screenshots as a temporary artifact. Current run status is available in [GitHub Actions](https://github.com/Senseikirb/Mission-Control/actions/workflows/verify.yml); this document records the local execution above rather than predicting future CI results.
