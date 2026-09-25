@@ -1,0 +1,120 @@
+{
+  "startDate": "2026-08-01",
+  "activities": {
+    "w1_a0": {
+      "completed": true,
+      "actualHrs": "1.5",
+      "note": "SYNTHETIC: array broadcasting example",
+      "completedAt": "2026-09-24T23:30:00.000Z",
+      "_gains": {
+        "xp": 51,
+        "bonusXP": 0
+      }
+    },
+    "w1_a1": {
+      "completed": false,
+      "actualHrs": "0.5",
+      "note": "SYNTHETIC: paused video"
+    },
+    "w99_a0": {
+      "completed": true,
+      "actualHrs": "2",
+      "note": "SYNTHETIC: unknown activity"
+    }
+  },
+  "weekNotes": {
+    "w1": "SYNTHETIC: family interruption"
+  },
+  "projectData": {
+    "p1": {
+      "status": "In Progress",
+      "github": "https://example.com/synthetic-repo",
+      "video": "",
+      "demo": "",
+      "actualMetrics": "SYNTHETIC: 50 fps in a small test scene; target not achieved",
+      "subtasks": [
+        {
+          "id": "p1_st0",
+          "text": "SYNTHETIC checkpoint",
+          "done": true
+        }
+      ]
+    }
+  },
+  "resourceStatus": {
+    "r0": "Started",
+    "r999": "Completed"
+  },
+  "jobData": {
+    "AI_0": {
+      "company": "Anduril",
+      "status": "Applied",
+      "dateApplied": "2026-09-20",
+      "contact": "Synthetic contact",
+      "notes": "TEST ONLY"
+    }
+  },
+  "customJobs": [
+    {
+      "id": "c_test",
+      "track": "EE",
+      "company": "SYNTHETIC company",
+      "status": "Not Applied"
+    }
+  ],
+  "streak": {
+    "count": 4,
+    "lastDate": "2026-09-25"
+  },
+  "rpg": {
+    "name": "SYNTHETIC TEST OPERATIVE",
+    "callsign": "FIXTURE",
+    "classId": "engineer",
+    "totalXP": 1234,
+    "xp": 234,
+    "rank": 4,
+    "totalCompleted": 8,
+    "stats": {
+      "vitality": 14,
+      "neural": 31,
+      "credits": 18,
+      "influence": 17,
+      "hardware": 42
+    },
+    "augPoints": 1,
+    "augmentations": [
+      "resonance"
+    ],
+    "credsEarned": 2,
+    "rewardHistory": [
+      {
+        "tier": "Rare",
+        "reward": "SYNTHETIC old reward",
+        "date": "2026-09-23"
+      }
+    ],
+    "retrospectives": [
+      {
+        "atWeek": 4,
+        "text": "SYNTHETIC reflection, not a real accomplishment",
+        "date": "2026-09-24"
+      }
+    ]
+  },
+  "achievements": [
+    "first",
+    "cert"
+  ],
+  "bonusQuests": {
+    "bq_aws_aip": {
+      "completed": true,
+      "dateCompleted": "2026-09-20"
+    }
+  },
+  "leadershipStatus": {
+    "ld_01": {
+      "completed": true
+    }
+  },
+  "quietRewards": true
+}

@@ -1,0 +1,12 @@
+# Mission Control 8.0.0
+
+- Replaced positional activity/resource/company persistence with stable IDs and a validated schema-8 configuration/progress bundle. Fixed the omitted `bonusMissions`/`views` config round trip and nonpersisted configuration changes.
+- Added reversible legacy migration, explicit positional-provenance confirmation, ambiguity review, unmatched-record recovery, original-save export and previous-bundle restoration. Failed storage no longer reports “Synced.”
+- Rebuilt Today’s Focus around a weekly budget, track preferences and next-session format/time. Shows at most three explained alternatives. Added partial sessions, reversible session logs, deferral and user-controlled cycle advancement.
+- Separated core/stretch hours and flagged the 14 original cycle-total discrepancies. Explicit prerequisites are validated; all 383 original activities/quests/lessons currently disclose missing prerequisite definitions.
+- Unified plan, Side Quest and Academy completion events. Added idempotent completion, exact optional XP awards, derived category bonuses/ranks/stats/achievements, event-linked deterministic recognition and reversible augmentation installations. Removed daily/streak XP incentives. Renamed rank/streak achievement labels that confused levels, rank titles and cycles.
+- Preserved unreconstructable legacy XP/stats/rewards as a disclosed opening balance/archive. Cosmetic or unimplemented augmentation promises are labeled; no HP/MP/credits spending system was invented. Replaced new rest-as-loot messages with cosmetic mission recognition.
+- Added learning notes, example/project links and checkpoints. Separated activity completion, self-reported demonstrated skill and credential evidence. Project targets remain distinct from measured outcomes. Added evidence-based portfolio export and unrestricted retrospectives.
+- Added readable responsive cards, a phone menu reaching all sections, accessible links/notes, native dialogs with focus management, keyboard scrolling, visual-viewport sizing, reduced-motion support and normal zoom.
+- Preserved all six tracks, 24 cycles, 240 plan activities, six projects, 120 Side Quests, 23 Leadership Academy lessons and 97 resource-library entries. Original learning descriptions, links and cost claims are retained and labeled unverified.
+- Application remains one standalone HTML file with no required backend, external runtime, subscription or AI API.

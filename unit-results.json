@@ -1,0 +1,118 @@
+{
+  "timezone": "America/Chicago",
+  "runAt": "2026-09-25T14:05:36.714Z",
+  "results": [
+    {
+      "name": "Fresh configuration: complete content preserved and zero accomplishments",
+      "passed": true
+    },
+    {
+      "name": "Unchanged full configuration round trip includes omitted legacy sections",
+      "passed": true
+    },
+    {
+      "name": "Validation rejects missing sections, duplicates, negative hours, unsafe links and unknown tracks",
+      "passed": true
+    },
+    {
+      "name": "Prerequisite validation rejects cycles and unknown IDs",
+      "passed": true
+    },
+    {
+      "name": "Stable identity survives reorder, insert and move plus serialized reload",
+      "passed": true
+    },
+    {
+      "name": "Removed IDs retain history and restore on reinsertion",
+      "passed": true
+    },
+    {
+      "name": "Legacy migration with original-plan confirmation preserves notes, hours and balances",
+      "passed": true
+    },
+    {
+      "name": "Legacy migration without provenance quarantines positional data",
+      "passed": true
+    },
+    {
+      "name": "Ambiguous legacy titles are flagged, never guessed",
+      "passed": true
+    },
+    {
+      "name": "Manual mapping preserves source, refuses overwrite and is reversible via raw export",
+      "passed": true
+    },
+    {
+      "name": "Legacy completion undo and redo never changes preserved XP or unrelated rewards",
+      "passed": true
+    },
+    {
+      "name": "Single completion is idempotent; redo restores same XP and reward event",
+      "passed": true
+    },
+    {
+      "name": "Permuted completion and reversal orders preserve XP, categories, ranks and stats",
+      "passed": true
+    },
+    {
+      "name": "Random reversal permutations match canonical recomputation over 50 seeds",
+      "passed": true
+    },
+    {
+      "name": "Reward reversal removes only originating recognition",
+      "passed": true
+    },
+    {
+      "name": "Bulk completion awards once and all awards undo cleanly",
+      "passed": true
+    },
+    {
+      "name": "Side Quests and Leadership use displayed XP and support undo/reload",
+      "passed": true
+    },
+    {
+      "name": "Stats cap cleanly and reverse without losing underlying gains",
+      "passed": true
+    },
+    {
+      "name": "Credentials are separate from completion and deduplicate issuer/reference",
+      "passed": true
+    },
+    {
+      "name": "Augmentations suspend and reactivate at reversed thresholds",
+      "passed": true
+    },
+    {
+      "name": "Planner obeys 20-minute reading and 60-minute hands-on budgets",
+      "passed": true
+    },
+    {
+      "name": "Sessions keep original effort, do not complete early, and count weekly budget once",
+      "passed": true
+    },
+    {
+      "name": "Deferral preserves evidence and removes planner candidates until resumed",
+      "passed": true
+    },
+    {
+      "name": "Configured prerequisite blocks recommendations without inventing unknown prerequisites",
+      "passed": true
+    },
+    {
+      "name": "Local-day midnight uses America/Chicago, not UTC dates",
+      "passed": true
+    },
+    {
+      "name": "Local streak boundaries, undo, DST spring/fall and week reset",
+      "passed": true
+    },
+    {
+      "name": "Malformed backups and unsafe JSON are rejected before mutation",
+      "passed": true
+    },
+    {
+      "name": "Full backup roundtrip preserves configuration, progress, ledger and raw legacy archive",
+      "passed": true
+    }
+  ]
+}

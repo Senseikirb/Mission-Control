@@ -1,0 +1,92 @@
+{
+  "browser": "153.0.4234.32",
+  "engine": "Microsoft Edge / Chromium headless",
+  "runAt": "2026-09-25T14:06:11.086Z",
+  "results": [
+    {
+      "name": "Standalone file fresh start, zero network dependencies, no invented progress",
+      "passed": true
+    },
+    {
+      "name": "Planner saves weekly budget, tracks, format and session length across reload",
+      "passed": true
+    },
+    {
+      "name": "Evidence, partial sessions, complete/undo/redo and exact reward retention through UI",
+      "passed": true
+    },
+    {
+      "name": "Park/resume retains note, hours and history",
+      "passed": true
+    },
+    {
+      "name": "Unchanged config application persists every section after reload",
+      "passed": true
+    },
+    {
+      "name": "Configuration move/insertion after actual completion persists with same identity",
+      "passed": true
+    },
+    {
+      "name": "Invalid config rejected without mutation and unsupported URL remains inert",
+      "passed": true
+    },
+    {
+      "name": "Full backup import/export restores config, progress, archive, notes and legacy balance",
+      "passed": true
+    },
+    {
+      "name": "Legacy save discovery and confirmed migration preserve original rollback data",
+      "passed": true
+    },
+    {
+      "name": "Legacy ambiguity remains in recovery until explicitly mapped",
+      "passed": true
+    },
+    {
+      "name": "Failed localStorage write reports failure, preserves previous save, exports pending and retries",
+      "passed": true
+    },
+    {
+      "name": "Failed config persistence does not replace active configuration or claim success",
+      "passed": true
+    },
+    {
+      "name": "Malformed stored data is not silently overwritten; explicit fresh recovery retains raw bytes",
+      "passed": true
+    },
+    {
+      "name": "Storage read denial gives recovery UI instead of silently starting a saved session",
+      "passed": true
+    },
+    {
+      "name": "Previous-snapshot restoration is available after configuration changes",
+      "passed": true
+    },
+    {
+      "name": "Bulk UI completion has reversible events; Side Quests and Academy award exact XP",
+      "passed": true
+    },
+    {
+      "name": "Project targets remain distinct from saved achieved results; task and retrospective edit persist",
+      "passed": true
+    },
+    {
+      "name": "All ten sections reachable at 390px with touch emulation and no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320px narrow layout and simulated 200% text sizing preserve all section access",
+      "passed": true
+    },
+    {
+      "name": "Dialog keyboard trap, Escape, focus restoration and reduced viewport scroll access",
+      "passed": true
+    },
+    {
+      "name": "Browser console has no uncaught application errors across executed flows",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

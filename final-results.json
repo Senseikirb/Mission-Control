@@ -1,0 +1,21 @@
+{
+  "runAt": "2026-09-25T14:08:41.554Z",
+  "results": [
+    {
+      "name": "All original learning activity/resource/quest/lesson values preserved",
+      "passed": true
+    },
+    {
+      "name": "Nested malformed backup fields are rejected before rendering",
+      "passed": true
+    },
+    {
+      "name": "Focus returns to the originating activity after evidence save rerenders the page",
+      "passed": true
+    },
+    {
+      "name": "Failed storage message is visible inside the active dialog",
+      "passed": true
+    }
+  ]
+}
